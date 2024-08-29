@@ -94,7 +94,6 @@ func (self *reader) checkHeader() {
 	}
 }
 
-
 func (self *reader) readProto(parentSource string) *Prototype {
 	source := self.readString()
 	if source == "" {

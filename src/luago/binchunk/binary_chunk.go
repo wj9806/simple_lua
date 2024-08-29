@@ -67,6 +67,7 @@ type Upvalue struct {
 	Idx     byte
 }
 
+
 type LocVar struct {
 	VarName string
 	StartPC uint32
